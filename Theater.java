@@ -1,33 +1,24 @@
+import java.util.ArrayList;
 
 /**
- * Write a description of class Theater here.
- *
- * @author (your name)
+ * A class to model a theater.
+ * 
+ * @author David J. Barnes and Michael Kölling.
  * @version (a version number or a date)
  */
-public class Theater
-{
-    // instance variables - replace the example below with your own
-    private int x;
+public class Theater {
+    private final int number;
+    private Showing showing;
+    //private Rows row;
 
     /**
-     * Constructor for objects of class Theater
+     * Construct a Lot, setting its number and description.
+     * @param number The theater number.
+     * @param showing .
      */
-    public Theater()
-    {
-        // initialise instance variables
-        x = 0;
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    public Theater(int number, Showing showing, ArrayList<Integer> row) {
+        this.number = number;
+        this.showing = showing;
+//        this.row = row;
     }
 }

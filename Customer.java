@@ -1,10 +1,9 @@
 /**
  * Maintain details of customers that make a reservation.
  * @author Michael B
- * @version 1
+ * @version (a version number or a date)
  */
-public class Customer
-{
+public class Customer {
     // The name of this person.
     private final String name;
     private final int phoneNumber;
@@ -14,8 +13,7 @@ public class Customer
      * @param name The customer's name.
      * @param phoneNumber The customer's phone number
      */
-    public Customer(String name, int phoneNumber)
-    {
+    public Customer(String name, int phoneNumber) {
         this.name = name;
         this.phoneNumber = phoneNumber;
     }
@@ -23,16 +21,14 @@ public class Customer
     /**
      * @return The customers's name.
      */
-    public String getName()
-    {
+    public String getName() {
         return name;
     }
     
     /**
      * @return The customers's phone number.
      */
-    public int getPhoneNumber()
-    {
+    public int getPhoneNumber() {
         return phoneNumber;
     }
 }

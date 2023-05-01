@@ -1,33 +1,32 @@
-
 /**
- * Write a description of class Showing here.
+ * A class to model a showing.
  *
- * @author (your name)
+ * @author Michael B
  * @version (a version number or a date)
  */
-public class Showing
-{
-    // instance variables - replace the example below with your own
-    private int x;
+public class Showing {
+    private int theaterNumber;
+    private int time;
+    private String movie;
 
     /**
      * Constructor for objects of class Showing
      */
-    public Showing()
-    {
-        // initialise instance variables
-        x = 0;
+    public Showing(int theaterNumber, int time, String movie) {
+        this.theaterNumber = theaterNumber;
+        this.time = time;
+        this.movie = movie;
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    
+    public int getTheaterNumber() {
+        return theaterNumber;
+    }
+    
+    public int getTime() {
+        return time;
+    }
+    
+    public String getMovie() {
+        return movie;
     }
 }

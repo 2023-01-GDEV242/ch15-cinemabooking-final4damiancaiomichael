@@ -7,8 +7,7 @@
  * Project 4
  * May 1, 2023
  */
-public class CinemaBookingSystem
-{
+public class CinemaBookingSystem {
     /**
      * Constructor for objects of class CinemaBookingSystem
      */

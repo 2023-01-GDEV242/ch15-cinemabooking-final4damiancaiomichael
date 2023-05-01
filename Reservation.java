@@ -1,33 +1,37 @@
-
 /**
- * Write a description of class Reservation here.
- *
- * @author (your name)
+ * A class that models an reservation.
+ * 
+ * @author Michael B
  * @version (a version number or a date)
  */
-public class Reservation
-{
-    // instance variables - replace the example below with your own
-    private int x;
+public class Reservation {
+    // The person making the bid.
+    private final Customer customer;
+    // The value of the bid. This could be a large number so
+    // the long type has been used.
+    private final int theater;
 
     /**
-     * Constructor for objects of class Reservation
+     * Create a bid.
+     * @param bidder Who is bidding for the lot.
+     * @param value The value of the bid.
      */
-    public Reservation()
-    {
-        // initialise instance variables
-        x = 0;
+    public Reservation(Customer customer, int theater) {
+        this.customer = customer;
+        this.theater = theater;
     }
 
     /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
+     * @return The bidder.
      */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    public Customer getCustomer() {
+        return customer;
+    }
+
+    /**
+     * @return The value of the bid.
+     */
+    public long getTheater() {
+        return theater;
     }
 }
