@@ -1,33 +1,22 @@
 
 /**
- * Write a description of class Theater here.
+ * Theather is going to store the number of seats and rows in a room.
  *
- * @author (your name)
+ * @author Caio
  * @version (a version number or a date)
  */
 public class Theater
 {
-    // instance variables - replace the example below with your own
-    private int x;
+    
+    private String roomNumber;
+    private Rows row;
+    
 
     /**
      * Constructor for objects of class Theater
      */
-    public Theater()
+    public Theater(String roomNumber)
     {
-        // initialise instance variables
-        x = 0;
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+        
     }
 }

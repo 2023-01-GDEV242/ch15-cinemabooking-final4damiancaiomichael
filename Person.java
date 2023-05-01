@@ -2,32 +2,38 @@
 /**
  * Write a description of class Person here.
  *
- * @author (your name)
+ * @author Caio
  * @version (a version number or a date)
  */
 public class Person
 {
-    // instance variables - replace the example below with your own
-    private int x;
+    // The name of this person.
+    private final String name;
+    private final int phoneNumber;
 
     /**
-     * Constructor for objects of class Person
+     * Create a new person with the given name.
+     * @param name The person's name.
      */
-    public Person()
+    public Person(String name, int phoneNumber)
     {
-        // initialise instance variables
-        x = 0;
+        this.name = name;
+        this.phoneNumber = phoneNumber;
     }
 
     /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
+     * @return The person's name.
      */
-    public int sampleMethod(int y)
+    public String getName()
     {
-        // put your code here
-        return x + y;
+        return name;
+    }
+    
+    /**
+     * @return The person's name.
+     */
+    public int getPhoneNumber()
+    {
+        return phoneNumber;
     }
 }
