@@ -17,7 +17,6 @@ public class Rows
     public Rows(String rowLetter, int maxSeats)
     {
         
-        
         for (int i=0; i < maxSeats; i++){               
             
             seats.add(i);
