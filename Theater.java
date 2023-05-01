@@ -9,16 +9,16 @@ import java.util.ArrayList;
 public class Theater {
     private final int number;
     private Showing showing;
-    //private Rows row;
+    private Rows row;
 
     /**
      * Construct a Lot, setting its number and description.
      * @param number The theater number.
      * @param showing .
      */
-    public Theater(int number, Showing showing, ArrayList<Integer> row) {
+    public Theater(int number, Showing showing, Rows row) {
         this.number = number;
         this.showing = showing;
-//        this.row = row;
+        this.row = row;
     }
 }
