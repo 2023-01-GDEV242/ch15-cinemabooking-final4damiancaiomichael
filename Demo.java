@@ -1,23 +1,22 @@
 
 /**
- * Write a description of class CinemaBookingSystem here.
+ * Write a description of class Demo here.
  *
- * @author caio
  * @author Michael B
- * @version (a version number or a date)
+ * @version 1.0
  */
-public class CinemaBookingSystem
+public class Demo
 {
     // instance variables - replace the example below with your own
-    
+    private int x;
 
     /**
-     * Constructor for objects of class CinemaBookingSystem
+     * Constructor for objects of class Demo
      */
-    public CinemaBookingSystem()
+    public Demo()
     {
         // initialise instance variables
-        
+        x = 0;
     }
 
     /**
@@ -26,8 +25,9 @@ public class CinemaBookingSystem
      * @param  y  a sample parameter for a method
      * @return    the sum of x and y
      */
-    // public int sampleMethod(int y)
-    // {
-
-    // }
+    public int sampleMethod(int y)
+    {
+        // put your code here
+        return x + y;
+    }
 }
