@@ -2,7 +2,7 @@
 /**
  * Write a description of class CinemaBookingSystem here.
  *
- * @author (your name)
+ * @author caio
  * @version (a version number or a date)
  */
 public class CinemaBookingSystem
