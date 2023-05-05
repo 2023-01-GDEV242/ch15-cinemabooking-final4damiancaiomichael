@@ -2,8 +2,11 @@
 /**
  * Write a description of class Showing here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * Damian, Caio, Michael
+ * Professor Crosbie
+ * Object Oriented Programming
+ * Project 4
+ * May 1, 2023
  */
 public class Showing
 {
