@@ -10,27 +10,28 @@
  */
 public class Showing
 {
-    // instance variables - replace the example below with your own
-    private int x;
+    private String movieTitle; //title of the film.
+    private String description; //description of the film.
+    private String rating; //rating of film.
+    private int price; //price for each ticket.
 
     /**
      * Constructor for objects of class Showing
      */
-    public Showing()
+    public Showing(String movieTitle,String description)
     {
-        // initialise instance variables
-        x = 0;
+        this.movieTitle = movieTitle;
+        this.description = description;
+        price = 0;
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
+    
+    public String getTitle()
     {
-        // put your code here
-        return x + y;
+        return movieTitle; //returns title of film.
+    }
+    
+    public int getPrice()
+    {
+        return price; //returns price.
     }
 }

@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 
 /**
  * Write a description of class Theater here.
@@ -11,15 +12,18 @@
 public class Theater
 {
     // instance variables - replace the example below with your own
-    private int x;
-
+    private int roomNum;
+    private String description;
+    private int price;
+    
     /**
      * Constructor for objects of class Theater
      */
-    public Theater()
+    public Theater(int roomNum, String description)
     {
         // initialise instance variables
-        x = 0;
+        this.roomNum = roomNum;
+        this.description = description;
     }
 
     /**

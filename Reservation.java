@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 
 /**
  * Write a description of class Reservation here.
@@ -11,26 +12,31 @@
 public class Reservation
 {
     // instance variables - replace the example below with your own
-    private int x;
+    private int price;
+    private int roomNum;
+    private String phoneNum;
+    //private Film film;
+    boolean reserved;
+    
 
     /**
      * Constructor for objects of class Reservation
      */
-    public Reservation()
+    public Reservation(int roomNum, String phoneNum)
     {
         // initialise instance variables
-        x = 0;
+        //this.film = film;
+        this.roomNum = roomNum;
+        this.phoneNum = phoneNum;
+        //price = getPrice();
+        reserved = false;
     }
 
     /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
+     * method for phone number.
      */
-    public int sampleMethod(int y)
+    public String getPhoneNum();
     {
-        // put your code here
-        return x + y;
+        return phoneNum; //returns phone number.
     }
 }
