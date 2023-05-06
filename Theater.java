@@ -22,7 +22,7 @@ public class Theater
     public Theater(int roomNum)
     {
         this.roomNum = roomNum;
-        alley = new ArrayList<Row>();
+        alley = new ArrayList<Row>(); //new object of arraylist row max number of rows is 10.
         numOfRows = 0;
     }
 
