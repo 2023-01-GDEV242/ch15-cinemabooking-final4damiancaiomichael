@@ -11,6 +11,9 @@ public class Showing {
 
     /**
      * Constructor for objects of class Showing
+     * @param
+     * @
+     * @
      */
     public Showing(int theaterNumber, int time, String movie) {
         this.theaterNumber = theaterNumber;

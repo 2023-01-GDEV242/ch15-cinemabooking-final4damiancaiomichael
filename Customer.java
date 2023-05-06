@@ -4,9 +4,8 @@
  * @version (a version number or a date)
  */
 public class Customer {
-    // The name of this person.
-    private final String name;
-    private final int phoneNumber;
+    private String name;
+    private int phoneNumber;
 
     /**
      * Create a new person with the given name and phone number.
@@ -19,14 +18,16 @@ public class Customer {
     }
 
     /**
-     * @return The customers's name.
+     * Returns the customer's name.
+     * @return The customer's name.
      */
     public String getName() {
         return name;
     }
     
     /**
-     * @return The customers's phone number.
+     * Returns the customer's phone number.
+     * @return The customer's phone number.
      */
     public int getPhoneNumber() {
         return phoneNumber;

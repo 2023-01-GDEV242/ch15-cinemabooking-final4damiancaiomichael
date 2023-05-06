@@ -7,18 +7,28 @@ import java.util.ArrayList;
  * @version (a version number or a date)
  */
 public class Theater {
-    private final int number;
+    private int number;
     private Showing showing;
     private Rows row;
 
     /**
-     * Construct a Lot, setting its number and description.
-     * @param number The theater number.
-     * @param showing .
+     * Constructor for class Theater
+     * @param number The theater number
+     * @param showing
+     * @param row
      */
     public Theater(int number, Showing showing, Rows row) {
         this.number = number;
         this.showing = showing;
         this.row = row;
     }
+
+    /**
+     * Returns the theater number
+     * @return The theater number
+     */
+    public int getNumber() {
+        return number;
+    }
+
 }
