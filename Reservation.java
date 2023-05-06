@@ -5,33 +5,31 @@
  * @version (a version number or a date)
  */
 public class Reservation {
-    // The person making the bid.
-    private final Customer customer;
-    // The value of the bid. This could be a large number so
-    // the long type has been used.
-    private final int theater;
+    private Customer customer;  // The person making the reservation.
+    private Showing showing;    // The show being reserved.
 
     /**
      * Create a bid.
      * @param bidder Who is bidding for the lot.
      * @param value The value of the bid.
      */
-    public Reservation(Customer customer, int theater) {
+    public Reservation(Customer customer, Showing showing) {
         this.customer = customer;
-        this.theater = theater;
+        this.showing = showing;
     }
 
     /**
-     * @return The bidder.
+     * 
+     * @return The customer.
      */
     public Customer getCustomer() {
         return customer;
     }
 
     /**
-     * @return The value of the bid.
+     * @return The showing.
      */
-    public long getTheater() {
-        return theater;
+    public Showing getShowing() {
+        return showing;
     }
 }
