@@ -11,30 +11,34 @@ import java.util.ArrayList;
  */
 public class Theater
 {
-    // instance variables - replace the example below with your own
-    private int roomNum;
-    private String description;
-    private int price;
+    private int roomNum; //room# of the theatre.
+    private ArrayList<Row> alley; //list of rows.
+    private final int MAX_ROWS = 10; //max number of rows per room.
+    private int numOfRows; //the number of rows in the theatre.
     
     /**
      * Constructor for objects of class Theater
      */
-    public Theater(int roomNum, String description)
+    public Theater(int roomNum)
     {
-        // initialise instance variables
         this.roomNum = roomNum;
-        this.description = description;
+        alley = new ArrayList<Row>();
+        numOfRows = 0;
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
+    public int getRoomNumber()
     {
-        // put your code here
-        return x + y;
+        return roomNum; //returns room number.
+    }
+    
+    public int getNumberOfRows()
+    {
+        return numOfRows; //returns number of Rows.
+    }
+    
+    public int getAlley(int alley)
+    {
+        alley.add(new Row(numOfRows + 1));
+        numOfRows++;
     }
 }
