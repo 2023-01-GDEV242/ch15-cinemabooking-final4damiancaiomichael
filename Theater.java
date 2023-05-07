@@ -9,6 +9,7 @@ import java.util.ArrayList;
  * Project 4
  * May 1, 2023
  */
+
 public class Theater
 {
     private int roomNum; //room# of the theatre.
