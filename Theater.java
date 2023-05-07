@@ -8,16 +8,18 @@ import java.util.ArrayList;
  */
 public class Theater {
     private int number;
-    private Rows row;
-
+    private Row rows;
+    private Seat seats;
+    
     /**
      * Constructor for class Theater
      * @param number The theater number
      * @param row
      */
-    public Theater(int number, Rows row) {
+    public Theater(int number, Row rows, Seat seats) {
         this.number = number;
-        this.row = row;
+        this.rows = rows;
+        this.seats = seats;
     }
 
     /**
@@ -26,5 +28,21 @@ public class Theater {
      */
     public int getNumber() {
         return number; 
+    }
+    
+    /**
+     * Returns the rows
+     * @return The rows
+     */
+    public Row getRows() {
+        return rows; 
+    }
+    
+    /**
+     * Returns the seats
+     * @return The seats
+     */
+    public Seat getSeats() {
+        return seats; 
     }
 }

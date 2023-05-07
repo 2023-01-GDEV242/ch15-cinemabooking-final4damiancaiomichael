@@ -5,11 +5,21 @@
  * @version (a version number or a date)
  */
 public class Movie {
+    private String name;
 
     /**
-     * Constructor for objects of class Movie
+     * Create a new movie with the given name.
+     * @param name The name of the movie.
      */
-    public Movie() {
-        
+    public Movie(String name) {
+        this.name = name;
+    }
+
+    /**
+     * Returns the movie name.
+     * @return The movie name.
+     */
+    public String getName() {
+        return name;
     }
 }

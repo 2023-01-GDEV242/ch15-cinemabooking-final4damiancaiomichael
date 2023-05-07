@@ -5,15 +5,15 @@ import java.util.ArrayList;
  * @author Caio
  * @version 1.0
  */
-public class Rows {
+public class Row {
     
     ArrayList<Integer> seats = new ArrayList<Integer>();
     String rowLetter;
 
     /**
-     * Constructor for objects of class Rows
+     * Constructor for objects of class Row
      */
-    public Rows(String rowLetter, int maxSeats) {
+    public Row(String rowLetter, int maxSeats) {
         for (int i=0; i < maxSeats; i++){                
             seats.add(i);
         } 

@@ -9,9 +9,9 @@ public class Reservation {
     private Showing showing;    // The show being reserved.
 
     /**
-     * Create a bid.
-     * @param bidder Who is bidding for the lot.
-     * @param value The value of the bid.
+     * Create a reseration.
+     * @param customer Who is making the reservation.
+     * @param showing The showing being reserved.
      */
     public Reservation(Customer customer, Showing showing) {
         this.customer = customer;
@@ -19,7 +19,7 @@ public class Reservation {
     }
 
     /**
-     * 
+     * Returns the customer.
      * @return The customer.
      */
     public Customer getCustomer() {
@@ -27,6 +27,7 @@ public class Reservation {
     }
 
     /**
+     * Returns the showing.
      * @return The showing.
      */
     public Showing getShowing() {
