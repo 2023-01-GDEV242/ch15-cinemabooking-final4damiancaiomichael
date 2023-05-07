@@ -6,15 +6,14 @@ import java.util.ArrayList;
  * @version 1.0
  */
 public class Row {
-    
-    ArrayList<Integer> seats = new ArrayList<Integer>();
-    String rowLetter;
+    private String rowLetter;
+    private ArrayList<Integer> seats = new ArrayList<Integer>();
 
     /**
      * Constructor for objects of class Row
      */
     public Row(String rowLetter, int maxSeats) {
-        for (int i=0; i < maxSeats; i++){                
+        for (int i = 0; i < maxSeats; i++){                
             seats.add(i);
         } 
     }

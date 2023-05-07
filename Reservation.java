@@ -7,7 +7,7 @@
 public class Reservation {
     private Customer customer;  // The person making the reservation.
     private Showing showing;    // The show being reserved.
-
+    
     /**
      * Create a reseration.
      * @param customer Who is making the reservation.

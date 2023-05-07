@@ -8,15 +8,15 @@ import java.util.ArrayList;
  */
 public class Theater {
     private int number;
-    private Row rows;
-    private Seat seats;
+    private int rows;
+    private int seats;
     
     /**
      * Constructor for class Theater
      * @param number The theater number
      * @param row
      */
-    public Theater(int number, Row rows, Seat seats) {
+    public Theater(int number, int rows, int seats) {
         this.number = number;
         this.rows = rows;
         this.seats = seats;
@@ -34,7 +34,7 @@ public class Theater {
      * Returns the rows
      * @return The rows
      */
-    public Row getRows() {
+    public int getRows() {
         return rows; 
     }
     
@@ -42,7 +42,7 @@ public class Theater {
      * Returns the seats
      * @return The seats
      */
-    public Seat getSeats() {
+    public int getSeats() {
         return seats; 
     }
 }
