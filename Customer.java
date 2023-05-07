@@ -5,14 +5,14 @@
  */
 public class Customer {
     private String name;
-    private int phoneNumber;
+    private String phoneNumber;
 
     /**
      * Create a new person with the given name and phone number.
      * @param name The customer's name.
      * @param phoneNumber The customer's phone number
      */
-    public Customer(String name, int phoneNumber) {
+    public Customer(String name, String phoneNumber) {
         this.name = name;
         this.phoneNumber = phoneNumber;
     }
@@ -29,7 +29,7 @@ public class Customer {
      * Returns the customer's phone number.
      * @return The customer's phone number.
      */
-    public int getPhoneNumber() {
+    public String getPhoneNumber() {
         return phoneNumber;
     }
 }
