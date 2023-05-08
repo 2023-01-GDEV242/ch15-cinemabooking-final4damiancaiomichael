@@ -33,4 +33,7 @@ public class Row {
     public ArrayList<Seat> getSeats() {
         return seats;
     }
+    
+    
+
 }

@@ -21,6 +21,8 @@ public class CinemaBookingSystem {
         Movie movie1 = new Movie("The Super Mario Bros. Movie");
         movies.add(movie1);
     }
+    
+    
 
     public void addCustomer(Customer customer) {
         customers.add(customer);

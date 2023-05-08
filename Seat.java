@@ -6,8 +6,6 @@
  * @version 5/7/2023
  */
 public class Seat {
-
-    private boolean available;
     private String number;
 
     /**
@@ -17,7 +15,6 @@ public class Seat {
      */
     public Seat(String rowLetter, int num) {
         number = String.format(rowLetter + "%02d", num);
-        available = true;
     }
 
     /**
