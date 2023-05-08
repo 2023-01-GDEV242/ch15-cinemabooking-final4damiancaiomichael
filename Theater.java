@@ -13,7 +13,7 @@ import java.util.ArrayList;
 public class Theater
 {
     private int roomNum; //room# of the theatre.
-    private ArrayList<Row> alley; //list of rows.
+    //private ArrayList<Row> alley; //list of rows.
     private final int MAX_ROWS = 10; //max number of rows per room.
     private int numOfRows; //the number of rows in the theatre.
     
@@ -23,7 +23,7 @@ public class Theater
     public Theater(int roomNum)
     {
         this.roomNum = roomNum;
-        alley = new ArrayList<Row>(); //new object of arraylist row max number of rows is 10.
+        //alley = new ArrayList<Row>(); //new object of arraylist row max number of rows is 10.
         numOfRows = 0;
     }
 
@@ -36,10 +36,11 @@ public class Theater
     {
         return numOfRows; //returns number of Rows.
     }
-    
-    public int getAlley(int alley)
+    /**
+     * public int getAlley(int alley)
     {
         alley.add(new Row(numOfRows + 1));
         numOfRows++;
     }
+     */
 }

@@ -11,11 +11,10 @@ import java.util.ArrayList;
  */
 public class Reservation
 {
-    // instance variables - replace the example below with your own
     private int price;
     private int roomNum;
     private String phoneNum;
-    //private Film film;
+    private Showing showing;
     boolean reserved;
     
 
@@ -30,13 +29,5 @@ public class Reservation
         this.phoneNum = phoneNum;
         //price = getPrice();
         reserved = false;
-    }
-
-    /**
-     * method for phone number.
-     */
-    public String getPhoneNum();
-    {
-        return phoneNum; //returns phone number.
     }
 }
