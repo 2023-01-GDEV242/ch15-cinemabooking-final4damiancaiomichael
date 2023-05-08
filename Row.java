@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.HashMap;
 /**
  * A class that models a row of seats.
  *
@@ -7,15 +8,29 @@ import java.util.ArrayList;
  */
 public class Row {
     private String rowLetter;
-    private ArrayList<Integer> seats = new ArrayList<Integer>();
-    private int maxSeats;
-
+    int maxSeats;
+    ArrayList<Seat> seats;
     /**
-     * Constructor for objects of class Row
+     * Constructor for objects of class Row.
+     * @param letter The letter designation for this row.
+     * @param numOfSeats The number of seats in this row.
      */
     public Row(String rowLetter, int maxSeats) {
-        for (int i = 0; i < maxSeats; i++) {
-            seats.add(i);
-        } 
+        this.rowLetter = rowLetter;
+        this.maxSeats = maxSeats;
+        seats = new ArrayList<Seat>();
+        
+        for (int index = 0; index < maxSeats; index++) {
+            Seat seat = new Seat(rowLetter, index + 1);
+            seats.add(seat);
+        }
+    }
+
+    /**
+     * the collection of seats in this row.
+     * @return The collection of seats in this row.
+     */
+    public ArrayList<Seat> getSeats() {
+        return seats;
     }
 }
