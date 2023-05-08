@@ -73,24 +73,19 @@ public class Responder
     {
         responseMap.put("showing", 
                         "As of May 1, 2023 our movie listing are.... /n" +
-                        "The Super Mario Movie /n"+ "Sharknado 12 /n" + "Object Oriented Programming The Movie");
+                        "Object Oriented Programming The Movie /n"+ "Nightmare on Criosbie's Street");
         
         responseMap.put("time", 
-                        "As of May 1, 2023 our movie listing are.... /n" +
-                        "The Super Mario Movie /n"+ "Sharknado 12 /n" + "Object Oriented Programming The Movie");
+                        "Object Oriented Programming The Movie /n5:00PM.-6:30PM. /n7:00PM.-8:30PM. /n9:00PM.-10:30PM"
+                        + "/nNightmare on Criosbie's Street /n1:00PM.-2:30PM. /n3:00Pm.-4:30PM.");
                         
-        responseMap.put("The Super Mario Movie", 
+        responseMap.put("Object Oriented Programming The Movie", 
                         "Well, it never crashes on our system. It must have something\n" +
                         "to do with your system. Tell me more about your configuration.");
                         
-        responseMap.put("crashes", 
+        responseMap.put("Nightmare on Criosbie's Street", 
                         "Well, it never crashes on our system. It must have something\n" +
                         "to do with your system. Tell me more about your configuration.");
-
-        responseMap.put("sharknado 12", 
-                        "I think this has to do with your hardware. Upgrading your processor\n" +
-                        "should solve all performance problems. Have you got a problem with\n" +
-                        "our software?");
     }
     
     private void fillResponseMap2()
@@ -98,20 +93,20 @@ public class Responder
         // for reference in populating a map:
         responseMap.put("showing", 
                         "As of May 1, 2023 our movie listing are...." +
-                        "\nThe Super Mario Movie " + "\nSharknado 12 " + "\nObject Oriented Programming The Movie");
+                        "\nNightmare on Criosbie's Street" + "\nObject Oriented Programming The Movie");
                         
-        responseMap.put("The Super Mario Movie", 
-                        "Well, it never crashes on our system. It must have something\n" +
-                        "to do with your system. Tell me more about your configuration.");
-                        
-        responseMap.put("crashes", 
-                        "Well, it never crashes on our system. It must have something\n" +
-                        "to do with your system. Tell me more about your configuration.");
+        responseMap.put("time", 
+                        "Object Oriented Programming The Movie" + "\n5:00PM.-6:30PM." + "\n7:00PM.-8:30PM." 
+                        + "\n9:00PM.-10:30PM"
+                        + "\nNightmare on Criosbie's Street" + "\n1:00PM.-2:30PM." + "\n3:00Pm.-4:30PM.");
 
-        responseMap.put("sharknado 12", 
-                        "I think this has to do with your hardware. Upgrading your processor\n" +
-                        "should solve all performance problems. Have you got a problem with\n" +
-                        "our software?");
+        responseMap.put("Object Oriented Programming The Movie", 
+                        "Well, it never crashes on our system. It must have something\n" +
+                        "to do with your system. Tell me more about your configuration.");
+                        
+        responseMap.put("Nightmare on Criosbie's Street", 
+                        "Well, it never crashes on our system. It must have something\n" +
+                        "to do with your system. Tell me more about your configuration.");
         
         Charset charset = Charset.forName("US-ASCII");
         Path path = Paths.get(FILE_OF_KEYS_AND_VALUES);
