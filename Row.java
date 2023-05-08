@@ -1,9 +1,9 @@
 import java.util.ArrayList;
 /**
- * Write a description of class Rows here.
+ * A class that models a row of seats.
  *
- * @author Caio
- * @version 1.0
+ * @author Caio, Mike, and Damian
+ * @version 5/7/2023
  */
 public class Row {
     private String rowLetter;

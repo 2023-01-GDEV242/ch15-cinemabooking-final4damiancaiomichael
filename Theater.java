@@ -1,10 +1,10 @@
 import java.util.ArrayList;
 
 /**
- * A class to model a theater.
+ * A class that models a theater.
  * 
- * @author Michael B
- * @version (a version number or a date)
+ * @author Mike, Caio, and Damian
+ * @version 5/7/2023
  */
 public class Theater {
     private int number;
@@ -15,6 +15,7 @@ public class Theater {
      * Constructor for class Theater
      * @param number The theater number
      * @param row
+     * @param seats
      */
     public Theater(int number, int rows, int seats) {
         this.number = number;

@@ -1,8 +1,8 @@
 /**
- * Write a description of class Movie here.
+ * A class that models a movie.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Mike, Caio, and Damian
+ * @version 5/7/2023
  */
 public class Movie {
     private String title;

@@ -1,15 +1,15 @@
 /**
- * A class that models an reservation.
+ * A class that models a theater.
  * 
- * @author Michael B
- * @version (a version number or a date)
+ * @author Mike, Caio, and Damian
+ * @version 5/7/2023
  */
 public class Reservation {
     private Customer customer;  // The person making the reservation.
     private Showing showing;    // The show being reserved.
     
     /**
-     * Create a reseration.
+     * Create a reservation.
      * @param customer Who is making the reservation.
      * @param showing The showing being reserved.
      */

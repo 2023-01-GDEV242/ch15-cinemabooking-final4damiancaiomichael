@@ -1,14 +1,15 @@
 /**
  * Maintain details of customers that make a reservation.
- * @author Michael B
- * @version (a version number or a date)
+ * 
+ * @author Mike, Caio, and Damian
+ * @version 5/7/2023
  */
 public class Customer {
     private String name;
     private String phoneNumber;
 
     /**
-     * Create a new person with the given name and phone number.
+     * Create a new customer with the given name and phone number.
      * @param name The customer's name.
      * @param phoneNumber The customer's phone number
      */

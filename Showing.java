@@ -1,8 +1,8 @@
 /**
- * A class to model a showing.
+  * A class that models a showing.
  *
- * @author Michael B
- * @version (a version number or a date)
+ * @author Mike, Caio, and Damian
+ * @version 5/7/2023
  */
 public class Showing {
     private Theater theater;
