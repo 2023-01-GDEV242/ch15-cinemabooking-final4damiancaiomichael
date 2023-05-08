@@ -7,15 +7,17 @@
 public class Reservation {
     private Customer customer;  // The person making the reservation.
     private Showing showing;    // The show being reserved.
+    private Seat seat;
     
     /**
      * Create a reservation.
      * @param customer Who is making the reservation.
      * @param showing The showing being reserved.
      */
-    public Reservation(Customer customer, Showing showing) {
+    public Reservation(Customer customer, Showing showing, Seat seat) {
         this.customer = customer;
         this.showing = showing;
+        this.seat = seat;
     }
 
     /**
@@ -33,4 +35,12 @@ public class Reservation {
     public Showing getShowing() {
         return showing;
     }
+    
+    /**
+     * Returns the seat.
+     * @return The seat.
+     */
+    public Seat getSeat() {
+        return seat;
+    }    
 }
