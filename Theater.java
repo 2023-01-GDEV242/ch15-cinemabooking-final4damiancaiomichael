@@ -6,7 +6,8 @@ import java.util.ArrayList;
  * @author Michael B
  * @version (a version number or a date)
  */
-public class Theater {
+public class Theater 
+{
     private int number;
     private int rows;
     private int seats;
@@ -16,17 +17,19 @@ public class Theater {
      * @param number The theater number
      * @param row
      */
-    public Theater(int number, int rows, int seats) {
+    public Theater(int number, int rows, int seats) 
+    {
         this.number = number;
         this.rows = rows;
         this.seats = seats;
     }
 
     /**
-     * Returns the theater number
-     * @return The theater number
+     * Returns the theater room number
+     * @return The theater room number
      */
-    public int getNumber() {
+    public int getroomNumber() 
+    {
         return number; 
     }
     
@@ -34,7 +37,8 @@ public class Theater {
      * Returns the rows
      * @return The rows
      */
-    public int getRows() {
+    public int getRows() 
+    {
         return rows; 
     }
     
@@ -42,7 +46,8 @@ public class Theater {
      * Returns the seats
      * @return The seats
      */
-    public int getSeats() {
+    public int getSeats() 
+    {
         return seats; 
     }
 }

@@ -4,7 +4,8 @@
  * @author Michael B
  * @version (a version number or a date)
  */
-public class Reservation {
+public class Reservation 
+{
     private Customer customer;  // The person making the reservation.
     private Showing showing;    // The show being reserved.
     
@@ -13,7 +14,8 @@ public class Reservation {
      * @param customer Who is making the reservation.
      * @param showing The showing being reserved.
      */
-    public Reservation(Customer customer, Showing showing) {
+    public Reservation(Customer customer, Showing showing) 
+    {
         this.customer = customer;
         this.showing = showing;
     }
@@ -22,7 +24,8 @@ public class Reservation {
      * Returns the customer.
      * @return The customer.
      */
-    public Customer getCustomer() {
+    public Customer getCustomer() 
+    {
         return customer;
     }
 
@@ -30,7 +33,8 @@ public class Reservation {
      * Returns the showing.
      * @return The showing.
      */
-    public Showing getShowing() {
+    public Showing getShowing() 
+    {
         return showing;
     }
 }
