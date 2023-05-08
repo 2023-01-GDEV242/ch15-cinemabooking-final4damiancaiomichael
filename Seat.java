@@ -27,26 +27,4 @@ public class Seat {
     public String getNum() {
         return number;
     }
-
-    /**
-     * Returns the availability for the seat.
-     * @return The availability for the seat.
-     */
-    public boolean isFree() {
-        return available;
-    }
-
-    /**
-     * Set the seat to unavailable.
-     */
-    public void setUnavailable() {
-        available = false;
-    }
-    
-    /**
-     * Set the seat to available.
-     */
-    public void setAvailable() {
-        available = true;
-    }
 }
