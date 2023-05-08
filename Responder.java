@@ -79,34 +79,31 @@ public class Responder
                         "Object Oriented Programming The Movie /n5:00PM.-6:30PM. /n7:00PM.-8:30PM. /n9:00PM.-10:30PM"
                         + "/nNightmare on Criosbie's Street /n1:00PM.-2:30PM. /n3:00Pm.-4:30PM.");
                         
-        responseMap.put("Object Oriented Programming The Movie", 
-                        "Well, it never crashes on our system. It must have something\n" +
-                        "to do with your system. Tell me more about your configuration.");
+        responseMap.put("Object", 
+                        "Title: Object Oriented Programming The Movie /nRated: PG /nLength: 1 hour and 35 minutes.");
                         
-        responseMap.put("Nightmare on Criosbie's Street", 
-                        "Well, it never crashes on our system. It must have something\n" +
-                        "to do with your system. Tell me more about your configuration.");
+        responseMap.put("Nightmare", 
+                        "Title: Nightmare on Criosbie's Street /nRated: R /nLength: 1 hour and 42 minutes.");
     }
     
     private void fillResponseMap2()
     {
         // for reference in populating a map:
         responseMap.put("showing", 
-                        "As of May 1, 2023 our movie listing are...." +
-                        "\nNightmare on Criosbie's Street" + "\nObject Oriented Programming The Movie");
+                        "As of May 1, 2023 our movie listing are...." + "\n------------------------------------" +
+                        "\n1.)Nightmare on Criosbie's Street" + "\n2.)Object Oriented Programming The Movie"
+                        + "\n\nType 'object' or 'nightmare' for more info on movies");
                         
         responseMap.put("time", 
                         "Object Oriented Programming The Movie" + "\n5:00PM.-6:30PM." + "\n7:00PM.-8:30PM." 
                         + "\n9:00PM.-10:30PM"
                         + "\nNightmare on Criosbie's Street" + "\n1:00PM.-2:30PM." + "\n3:00Pm.-4:30PM.");
-
-        responseMap.put("Object Oriented Programming The Movie", 
-                        "Well, it never crashes on our system. It must have something\n" +
-                        "to do with your system. Tell me more about your configuration.");
                         
-        responseMap.put("Nightmare on Criosbie's Street", 
-                        "Well, it never crashes on our system. It must have something\n" +
-                        "to do with your system. Tell me more about your configuration.");
+        responseMap.put("object", 
+                        "Title: Object Oriented Programming The Movie \nRated: PG \nLength: 1 hour and 35 minutes.");
+                        
+        responseMap.put("nightmare", 
+                        "Title: Nightmare on Criosbie's Street \nRated: R \nLength: 1 hour and 42 minutes.");
         
         Charset charset = Charset.forName("US-ASCII");
         Path path = Paths.get(FILE_OF_KEYS_AND_VALUES);
