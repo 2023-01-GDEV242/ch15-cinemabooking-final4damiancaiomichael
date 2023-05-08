@@ -45,4 +45,12 @@ public class Theater {
     public int getSeats() {
         return seats; 
     }
+    
+    /**
+     * Sets the number of rows in the theater.
+     * @param rows The number of rows in the theater.
+     */
+    public void setRows(int rows) {
+        this.rows = rows;
+    }
 }
