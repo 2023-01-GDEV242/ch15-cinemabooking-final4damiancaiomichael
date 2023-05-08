@@ -7,18 +7,18 @@ import java.util.ArrayList;
  * @version 5/7/2023
  */
 public class Theater {
-    private int number;
+    private int theaterNumber;
     private int rows;
     private int seats;
     
     /**
      * Constructor for class Theater
-     * @param number The theater number
+     * @param theaterNumber The theater number
      * @param row
      * @param seats
      */
-    public Theater(int number, int rows, int seats) {
-        this.number = number;
+    public Theater(int theaterNumber, int rows, int seats) {
+        this.theaterNumber = theaterNumber;
         this.rows = rows;
         this.seats = seats;
     }
@@ -27,8 +27,8 @@ public class Theater {
      * Returns the theater number
      * @return The theater number
      */
-    public int getNumber() {
-        return number; 
+    public int getTheaterNumber() {
+        return theaterNumber; 
     }
     
     /**

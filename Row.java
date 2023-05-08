@@ -8,12 +8,13 @@ import java.util.ArrayList;
 public class Row {
     private String rowLetter;
     private ArrayList<Integer> seats = new ArrayList<Integer>();
+    private int maxSeats;
 
     /**
      * Constructor for objects of class Row
      */
     public Row(String rowLetter, int maxSeats) {
-        for (int i = 0; i < maxSeats; i++){                
+        for (int i = 0; i < maxSeats; i++) {
             seats.add(i);
         } 
     }

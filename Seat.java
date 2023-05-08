@@ -5,7 +5,6 @@
  * @version 5/7/2023
  */
 public class Seat {
-
     /**
      * Constructor for objects of class Seat
      */
