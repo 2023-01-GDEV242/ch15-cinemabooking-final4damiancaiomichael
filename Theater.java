@@ -1,36 +1,57 @@
+import java.util.ArrayList;
 
 /**
- * Write a description of class Theater here.
- *
- * Damian, Caio, Michael
- * Professor Crosbie
- * Object Oriented Programming
- * Project 4
- * May 1, 2023
+ * A class that models a theater.
+ * 
+ * @author Mike, Caio, and Damian
+ * @version 5/7/2023
  */
-public class Theater
-{
-    // instance variables - replace the example below with your own
-    private int x;
-
+public class Theater {
+    private int theaterNumber;
+    private int rows;
+    private int seats;
+    
     /**
-     * Constructor for objects of class Theater
+     * Constructor for class Theater
+     * @param theaterNumber The theater number
+     * @param row
+     * @param seats
      */
-    public Theater()
-    {
-        // initialise instance variables
-        x = 0;
+    public Theater(int theaterNumber, int rows, int seats) {
+        this.theaterNumber = theaterNumber;
+        this.rows = rows;
+        this.seats = seats;
     }
 
     /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
+     * Returns the theater number
+     * @return The theater number
      */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    public int getTheaterNumber() {
+        return theaterNumber; 
+    }
+    
+    /**
+     * Returns the rows
+     * @return The rows
+     */
+    public int getRows() {
+        return rows; 
+    }
+    
+    /**
+     * Returns the seats
+     * @return The seats
+     */
+    public int getSeats() {
+        return seats; 
+    }
+    
+    /**
+     * Sets the number of rows in the theater.
+     * @param rows The number of rows in the theater.
+     */
+    public void setRows(int rows) {
+        this.rows = rows;
     }
 }

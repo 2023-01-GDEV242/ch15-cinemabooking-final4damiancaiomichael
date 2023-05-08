@@ -1,36 +1,36 @@
-
 /**
- * Write a description of class Reservation here.
- *
- * Damian, Caio, Michael
- * Professor Crosbie
- * Object Oriented Programming
- * Project 4
- * May 1, 2023
+ * A class that models a theater.
+ * 
+ * @author Mike, Caio, and Damian
+ * @version 5/7/2023
  */
-public class Reservation
-{
-    // instance variables - replace the example below with your own
-    private int x;
-
+public class Reservation {
+    private Customer customer;  // The person making the reservation.
+    private Showing showing;    // The show being reserved.
+    
     /**
-     * Constructor for objects of class Reservation
+     * Create a reservation.
+     * @param customer Who is making the reservation.
+     * @param showing The showing being reserved.
      */
-    public Reservation()
-    {
-        // initialise instance variables
-        x = 0;
+    public Reservation(Customer customer, Showing showing) {
+        this.customer = customer;
+        this.showing = showing;
     }
 
     /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
+     * Returns the customer.
+     * @return The customer.
      */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    public Customer getCustomer() {
+        return customer;
+    }
+
+    /**
+     * Returns the showing.
+     * @return The showing.
+     */
+    public Showing getShowing() {
+        return showing;
     }
 }

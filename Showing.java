@@ -1,36 +1,42 @@
-
 /**
- * Write a description of class Showing here.
+  * A class that models a showing.
  *
- * Damian, Caio, Michael
- * Professor Crosbie
- * Object Oriented Programming
- * Project 4
- * May 1, 2023
+ * @author Mike, Caio, and Damian
+ * @version 5/7/2023
  */
-public class Showing
-{
-    // instance variables - replace the example below with your own
-    private int x;
+public class Showing {
+    private Theater theater;
+    private Movie movie;
+    private int date;
+    private int time;
 
     /**
      * Constructor for objects of class Showing
+     * @param
+     * @param
+     * @param
+     * @param
      */
-    public Showing()
-    {
-        // initialise instance variables
-        x = 0;
+    public Showing(Theater theater, Movie movie, int date, int time) {
+        this.theater = theater;
+        this.movie = movie;
+        this.date = date;
+        this.time = time;
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    
+    public Theater getTheater() {
+        return theater;
+    }
+    
+    public Movie getMovie() {
+        return movie;
+    }
+    
+    public int getDate() {
+        return date;
+    }
+    
+    public int getTime() {
+        return time;
     }
 }
