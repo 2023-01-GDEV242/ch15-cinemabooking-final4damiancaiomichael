@@ -1,5 +1,6 @@
 #BlueJ package file
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 editor.fx.0.height=1414
 editor.fx.0.width=2574
 editor.fx.0.x=-7
@@ -32,11 +33,17 @@ dependency4.type=UsesDependency
 dependency5.from=CinemaBookingSystem
 dependency5.to=Movie
 dependency5.type=UsesDependency
+=======
+dependency1.from=Row
+dependency1.to=Seat
+dependency1.type=UsesDependency
+>>>>>>> Stashed changes
 editor.fx.0.height=0
 editor.fx.0.width=0
 editor.fx.0.x=0
 editor.fx.0.y=0
 objectbench.height=92
+<<<<<<< Updated upstream
 objectbench.width=451
 package.divider.horizontal=0.599476439790576
 package.divider.vertical=0.802
@@ -49,6 +56,19 @@ package.frame.width=800
 package.numDependencies=5
 package.numTargets=11
 >>>>>>> Stashed changes
+=======
+objectbench.width=801
+package.divider.horizontal=0.600297176820208
+package.divider.vertical=0.8462732919254659
+package.editor.height=538
+package.editor.width=1252
+package.editor.x=0
+package.editor.y=0
+package.frame.height=744
+package.frame.width=1382
+package.numDependencies=1
+package.numTargets=10
+>>>>>>> Stashed changes
 package.showExtends=true
 package.showUses=true
 project.charset=UTF-8
@@ -58,6 +78,7 @@ readme.width=49
 readme.x=10
 readme.y=10
 target1.height=70
+<<<<<<< Updated upstream
 target1.name=CinemaBookingSystem
 target1.showInterface=false
 target1.type=ClassTarget
@@ -103,26 +124,63 @@ target2.width=120
 target2.x=370
 target2.y=200
 target3.height=70
+=======
+target1.name=Theater
+target1.showInterface=false
+target1.type=ClassTarget
+target1.width=120
+target1.x=600
+target1.y=270
+target10.height=70
+target10.name=README.md
+target10.type=TextTarget
+target10.width=120
+target10.x=160
+target10.y=10
+target2.height=70
+target2.name=Movie
+target2.showInterface=false
+target2.type=ClassTarget
+target2.width=120
+target2.x=160
+target2.y=250
+target3.height=70
+>>>>>>> Stashed changes
 target3.name=Reservation
 target3.showInterface=false
 target3.type=ClassTarget
 target3.width=120
+<<<<<<< Updated upstream
 target3.x=270
 target3.y=100
+=======
+target3.x=430
+target3.y=30
+>>>>>>> Stashed changes
 target4.height=70
 target4.name=Seat
 target4.showInterface=false
 target4.type=ClassTarget
 target4.width=120
+<<<<<<< Updated upstream
 target4.x=160
 target4.y=330
+=======
+target4.x=830
+target4.y=170
+>>>>>>> Stashed changes
 target5.height=70
 target5.name=Showing
 target5.showInterface=false
 target5.type=ClassTarget
 target5.width=120
+<<<<<<< Updated upstream
 target5.x=50
 target5.y=170
+=======
+target5.x=380
+target5.y=320
+>>>>>>> Stashed changes
 target6.height=70
 target6.name=Customer
 target6.showInterface=false
@@ -142,13 +200,23 @@ target8.name=Row
 target8.showInterface=false
 target8.type=ClassTarget
 target8.width=120
+<<<<<<< Updated upstream
 target8.x=10
 target8.y=210
+=======
+target8.x=570
+target8.y=110
+>>>>>>> Stashed changes
 target9.height=70
 target9.name=Person
 target9.showInterface=false
 target9.type=ClassTarget
 target9.width=120
+<<<<<<< Updated upstream
 target9.x=500
 target9.y=140
+>>>>>>> Stashed changes
+=======
+target9.x=790
+target9.y=20
 >>>>>>> Stashed changes
