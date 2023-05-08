@@ -11,6 +11,7 @@ public class CinemaBookingSystem {
     private ArrayList<Movie> movies = new ArrayList<Movie>();
     private ArrayList<Showing> showings = new ArrayList<Showing>();
     private ArrayList<Theater> theaters = new ArrayList<Theater>();
+    private ArrayList<Seat> reservations = new ArrayList<Seat>();
     /**
      * Constructor for objects of class CinemaBookingSystem
      */
@@ -22,7 +23,10 @@ public class CinemaBookingSystem {
         movies.add(movie1);
     }
     
-    
+    public void makeReservation(){
+         
+        
+    }
 
     public void addCustomer(Customer customer) {
         customers.add(customer);

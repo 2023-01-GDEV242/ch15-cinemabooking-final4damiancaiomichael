@@ -20,6 +20,11 @@ public class Reservation {
         this.seat = seat;
     }
 
+    public Seat makeReservation(){
+        
+        return seat;
+    }
+    
     /**
      * Returns the customer.
      * @return The customer.
