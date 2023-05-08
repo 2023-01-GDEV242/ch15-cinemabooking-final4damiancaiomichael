@@ -2,7 +2,7 @@
  * Objects of this class represent seats for a given showing.
  * It has availability and an alphanumeric designator.
  * 
- * @author: Artemis MacDuffie, Ryan Connell, & Tara Nordmann
+ * @author: Damian, Caio, Mike
  * @version: 5/7/2023
  */
 public class Seat {
@@ -26,27 +26,5 @@ public class Seat {
      */
     public String getNum() {
         return number;
-    }
-
-    /**
-     * Returns the availability for the seat.
-     * @return The availability for the seat.
-     */
-    public boolean isFree() {
-        return available;
-    }
-
-    /**
-     * Set the seat to unavailable.
-     */
-    public void setUnavailable() {
-        available = false;
-    }
-    
-    /**
-     * Set the seat to available.
-     */
-    public void setAvailable() {
-        available = true;
     }
 }
